@@ -4,7 +4,58 @@
   src: url('font/gameplay.ttf');
 }
 
+/*Header part */
+header
+{
+  background-color: orange;
+  padding-bottom: 50px;
+}
+
+header img
+{
+  vertical-align: middle;
+  float: left;
+}
+
 h1
 {
   font-family: "gameplay", sans-serif;
+  vertical-align: middle;
+  float: left;
 }
+
+.accueil, .entete
+{
+  clear: both;
+}
+
+.perso
+{
+  float: right;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 0px;
+}
+
+.perso a
+{
+  text-decoration: none;
+  color: black
+}
+
+.accueil
+{
+  margin-left: 70px;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 23px;
+}
+
+.accueil a
+{
+  text-decoration: none;
+  color: black;
+}
+/*Header part */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
