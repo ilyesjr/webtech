@@ -1,0 +1,10 @@
+@font-face
+{
+  font-family: "gameplay";
+  src: url('font/gameplay.ttf');
+}
+
+h1
+{
+  font-family: "gameplay", sans-serif;
+}
