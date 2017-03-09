@@ -82,6 +82,15 @@ h1
 /*Header part */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Section part*/
+h2
+{
+  font-family: "gameplay", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
 article
 {
   display: block;
