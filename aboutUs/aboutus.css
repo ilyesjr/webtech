@@ -1,7 +1,7 @@
 @font-face
 {
   font-family: "gameplay";
-  src: url('font/gameplay.ttf');
+  src: url('../font/gameplay.ttf');
 }
 
 /*Header part */
@@ -12,7 +12,7 @@ body
 
 header
 {
-  background-image: url(image/sky.png);
+  background-image: url(../image/sky.png);
   padding-bottom: 50px;
   border-style: solid;
   border-radius: 10px;
@@ -82,115 +82,50 @@ h1
 /*Header part */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Section part*/
-article
+.aboutus
 {
-  display: block;
-  margin: auto;
-}
-/*Predator part*/
-.predator
-{
-  height: 660px;
-  width: 800px;
+  height: 400px;
+  width: 1000px;
   border-style: solid;
   border-radius: 5px;
   background-color: #B1B1EC;
+  margin-top: 20px;
 }
 
-.predator h3
+.aboutus h2
 {
   text-align: center;
   font-size: 20px;
   font-family: "gameplay";
 }
 
-.predator img
+.aboutus p
 {
-  height: 177px;
-  width: 300px;
+  font-size: 23px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.aboutus,.maps
+{
+  display: inline-block;
   vertical-align: middle;
-  margin-left: 250px;
 }
 
-.predator a
+.maps
 {
-  font-family: "gameplay";
-  margin: 0px 0px 5px 10px;
-  color: black;
-}
-/*Predator part*/
-
-/*Madcatz part*/
-.madcatz
-{
-  height: 490px;
-  width: 450px;
+  height: 300px;
+  width: 400px;
   border-style: solid;
   border-radius: 5px;
-  background-color: #B1B1EC;
+  margin-left: 50px;
 }
-
-.madcatz h3
-{
-  text-align: center;
-  font-size: 20px;
-  font-family: "gameplay";
-}
-
-.madcatz img
-{
-  height: 225px;
-  width: 225px;
-  vertical-align: middle;
-  margin-left: 100px;
-
-}
-
-.madcatz a
-{
-  font-family: "gameplay";
-  margin: 0px 0px 5px 10px;
-  color: black;
-}
-/*Madcatz part*/
-
-/*Rogkb part*/
-.rogkb
-{
-  height: 600px;
-  width: 800px;
-  border-style: solid;
-  border-radius: 5px;
-  background-color: #B1B1EC;
-}
-
-.rogkb h3
-{
-  text-align: center;
-  font-size: 20px;
-  font-family: "gameplay";
-}
-
-.rogkb img
-{
-  height: 225px;
-  width: 225px;
-  vertical-align: middle;
-  margin-left:300px;
-}
-
-.rogkb a
-{
-  font-family: "gameplay";
-  margin: 0px 0px 5px 10px;
-  color: black;
-}
-/*Rogkb part*/
-
+/*Section part*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Footer part*/
 footer
 {
-  background-image: url(image/sky.png);
+  background-image: url(../image/sky.png);
   padding-bottom: 50px;
   border-style: solid;
   border-radius: 10px;

@@ -1,7 +1,7 @@
 @font-face
 {
   font-family: "gameplay";
-  src: url('font/gameplay.ttf');
+  src: url('../font/gameplay.ttf');
 }
 
 /*Header part */
@@ -12,7 +12,7 @@ body
 
 header
 {
-  background-image: url(image/sky.png);
+  background-image: url(../image/sky.png);
   padding-bottom: 50px;
   border-style: solid;
   border-radius: 10px;
@@ -121,7 +121,7 @@ section a
 /*Footer part*/
 footer
 {
-  background-image: url(image/sky.png);
+  background-image: url(../image/sky.png);
   padding-bottom: 50px;
   border-style: solid;
   border-radius: 10px;
