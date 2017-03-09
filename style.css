@@ -7,13 +7,15 @@
 /*Header part */
 body
 {
-  background-color: lightgrey;
+  background-color: #1A1A42;
 }
 
 header
 {
-  background-color: orange;
+  background-image: url(image/sky.png);
   padding-bottom: 50px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 header img
@@ -27,6 +29,7 @@ h1
   font-family: "gameplay", sans-serif;
   vertical-align: middle;
   float: left;
+  color: black;
 }
 
 .accueil, .entete
@@ -46,7 +49,7 @@ h1
 .perso a
 {
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 .accueil
@@ -75,10 +78,10 @@ article
 {
   height: 550px;
   width: 400px;
-  border-style: double;
+  border-style: solid;
   border-radius: 5px;
   margin-left: 130px;
-  background-color: white;
+  background-color: #B1B1EC;
 }
 
 .predator h3
@@ -120,9 +123,9 @@ article
 {
   height: 550px;
   width: 400px;
-  border-style: double;
+  border-style: solid;
   border-radius: 5px;
-  background-color: white;
+  background-color: #B1B1EC;
 }
 
 .madcatz h3
@@ -164,9 +167,9 @@ article
 {
   height: 550px;
   width: 400px;
-  border-style: double;
+  border-style: solid;
   border-radius: 5px;
-  background-color: white;
+  background-color: #B1B1EC;
 }
 
 .rogkb h3
@@ -201,3 +204,43 @@ article
   font-weight: bold;
 }
 /*Rogkb part*/
+
+/*Footer part*/
+footer
+{
+  background-image: url(image/sky.png);
+  padding-bottom: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.whoarewe
+{
+  float: right;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 0px;
+}
+
+.whoarewe a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.contact
+{
+  float: left;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 20px;
+}
+
+.contact a
+{
+  text-decoration: none;
+  color: black;
+}
