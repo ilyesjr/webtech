@@ -1,0 +1,159 @@
+@font-face
+{
+  font-family: "gameplay";
+  src: url('font/gameplay.ttf');
+}
+
+/*Header part */
+body
+{
+  background-color: #1A1A42;
+}
+
+header
+{
+  background-image: url(image/sky.png);
+  padding-bottom: 50px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+header img
+{
+  vertical-align: middle;
+  float: left;
+}
+
+h1
+{
+  font-family: "gameplay", sans-serif;
+  vertical-align: middle;
+  float: left;
+  color: black;
+}
+
+.accueil, .entete
+{
+  clear: both;
+}
+
+.perso
+{
+  float: right;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 0px;
+}
+
+.perso a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.accueil
+{
+  margin-left: 70px;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 23px;
+}
+
+.accueil a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.produit
+{
+  margin-left: 70px;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 23px;
+}
+
+.produit a
+{
+  text-decoration: none;
+  color: black;
+}
+/*Header part */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Section part*/
+section
+{
+  height: 420px;
+  width: 60%;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #B1B1EC;
+  margin: auto;
+  margin-top: 20px;
+}
+
+section h2, section h3
+{
+  text-align: center;
+  font-size: 20px;
+  font-family: "gameplay";
+}
+
+section p
+{
+  font-size: 23px;
+  text-align: center;
+}
+
+section a
+{
+  color: black;
+}
+
+.material-icons
+{
+  vertical-align:text-top;
+  margin-right: 5px;
+}
+/*Section part*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Footer part*/
+footer
+{
+  background-image: url(image/sky.png);
+  padding-bottom: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.whoarewe
+{
+  float: right;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 0px;
+}
+
+.whoarewe a
+{
+  text-decoration: none;
+  color: black;
+}
+
+.contact
+{
+  float: left;
+  vertical-align: middle;
+  font-family: "gameplay";
+  font-size: 17px;
+  margin: 20px 20px 0px 20px;
+}
+
+.contact a
+{
+  text-decoration: none;
+  color: black;
+}
