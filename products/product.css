@@ -90,7 +90,10 @@ h2
   color: black;
   text-decoration: underline;
 }
-
+#Tuleveux1
+{
+  font-weight:bold;
+}
 article
 {
   display: block;
@@ -99,7 +102,7 @@ article
 /*Predator part*/
 .predator
 {
-  height: 660px;
+  height: 580px;
   width: 800px;
   border-style: solid;
   border-radius: 5px;
@@ -132,7 +135,7 @@ article
 /*Madcatz part*/
 .madcatz
 {
-  height: 490px;
+  height: 540px;
   width: 450px;
   border-style: solid;
   border-radius: 5px;
@@ -167,7 +170,7 @@ article
 /*Rogkb part*/
 .rogkb
 {
-  height: 600px;
+  height: 650px;
   width: 800px;
   border-style: solid;
   border-radius: 5px;

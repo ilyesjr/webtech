@@ -91,10 +91,10 @@ h2
   text-decoration: underline;
 }
 
-article
+#articlesInfo
 {
-  display: inline-block;
-  vertical-align: middle;
+  display:flex;
+  justify-content:center;
 }
 /*Predator part*/
 .predator
